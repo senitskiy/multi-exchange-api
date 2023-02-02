@@ -1,8 +1,33 @@
 # multi exchange api
 
-## TODO
+## Описание задачи
 
-Требуется разработать "multi exchange api" с REST, Webscoket и Futures (REST+WS) api. 
+Требуется разработать кросс-биржевое апи с REST, Webscoket и Futures подключением. 
+
+* REST - получение и изменение данных
+* Webscket - получение данных и изменение
+* Futures - тоже самое, что и REST+Webscket, только с другим эндпоинтом
+
+Пример нашей реализации [REST](https://github.com/marcius-capital/multi-exchange-api/blob/main/api/Binance/index.ts) + [WS](https://github.com/marcius-capital/multi-exchange-api/blob/main/api/Binance/Websocket.ts). Для создания API мы используем [схему](https://github.com/marcius-capital/multi-exchange-api/blob/main/api/Binance/index.ts#L10) и класс [Generator.ts](https://github.com/marcius-capital/multi-exchange-api/blob/main/modules/Generator.ts). 
+
+Пример стороннего проекта: https://coinray.docs.apiary.io/ . В сети полно готовых решение [раз](https://www.npmjs.com/package/binance-api-node), [два](https://www.npmjs.com/package/node-binance-api) etc.
+
+### Требование к исполнителю
+
+* nodejs developer (middle/senior)
+* знание typescript
+* умение писать тесты Mocha+Chai
+
+### Задача
+
+1. доделать [Binance API](https://github.com/marcius-capital/multi-exchange-api/tree/main/api/Binance) с REST+WS+Futures используя [документацию](https://github.com/marcius-capital/multi-exchange-api/edit/main/README.md#docs)
+2. написать тесты для каждого метода используя Mocha+Chai
+
+**Задание оплачивается при 100% его выполнение с продолжением работы.**
+
+Контакты для связи: https://nikitamarcius.t.me/
+
+## TODO
 
 **CEX**
 
@@ -46,5 +71,5 @@ https://coinmarketcap.com/ru/rankings/exchanges/
     * [Futures]()
 * [Kucoin](https://docs.kucoin.com/#general)
 * [Gateio](https://www.gate.io/docs/developers/apiv4/en/)
-* [MEXC](https://mxcdevelop.github.io/APIDoc/)
+* [MEXC](https://www.mexc.com/mexc-api)
 * [BitMart](https://developer-pro.bitmart.com/en/spot/#getting-started-2)
