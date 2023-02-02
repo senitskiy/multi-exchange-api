@@ -16,6 +16,7 @@
 
 * nodejs developer (middle/senior)
 * знание typescript
+* опыт коммерческих проектов от 3х лет
 * умение писать тесты Mocha+Chai
 
 ### Задача
@@ -23,7 +24,7 @@
 1. доделать [Binance API](https://github.com/marcius-capital/multi-exchange-api/tree/main/api/Binance) с REST+WS+Futures используя [документацию](https://github.com/marcius-capital/multi-exchange-api/edit/main/README.md#docs)
 2. написать тесты для каждого метода используя Mocha+Chai
 
-**Задание оплачивается при 100% его выполнение с продолжением работы.**
+**Задание оплачивается при 100% выполнение с продолжением работы.**
 
 Контакты для связи: https://nikitamarcius.t.me/
 
