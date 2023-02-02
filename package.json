@@ -1,0 +1,26 @@
+{
+  "name": "multi-exchange-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "author": "Nikita Marcius",
+  "license": "ISC",
+  "scripts": {
+    "dev": "npx nodemon -e ts,js --exec ts-node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@pontem/liquidswap-sdk": "0.5.4",
+    "aptos": "1.6.0",
+    "axios": "1.2.1",
+    "reconnecting-websocket": "4.4.0",
+    "ws": "8.11.0"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "nodemon": "2.0.20",
+    "ts-node": "10.9.1",
+    "tsconfig-paths": "4.1.2",
+    "typescript": "4.9.4"
+  }
+}
