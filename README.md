@@ -12,13 +12,6 @@
 
 Пример стороннего проекта: https://coinray.docs.apiary.io/ . В сети полно готовых решение [раз](https://www.npmjs.com/package/binance-api-node), [два](https://www.npmjs.com/package/node-binance-api) etc.
 
-### Требование к исполнителю
-
-* nodejs developer (middle/senior)
-* знание typescript
-* опыт коммерческих проектов от 3х лет
-* умение писать тесты Mocha+Chai
-
 ### Test task
 
 1. доделать [Binance API](https://github.com/marcius-capital/multi-exchange-api/tree/main/api/Binance) с REST+WS+Futures используя [документацию](https://github.com/marcius-capital/multi-exchange-api/edit/main/README.md#docs)
