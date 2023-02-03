@@ -10,7 +10,7 @@
 
 Пример нашей реализации [REST](https://github.com/marcius-capital/multi-exchange-api/blob/main/api/Binance/index.ts) + [WS](https://github.com/marcius-capital/multi-exchange-api/blob/main/api/Binance/Websocket.ts). Для создания API мы используем [схему](https://github.com/marcius-capital/multi-exchange-api/blob/main/api/Binance/index.ts#L10) и класс [Generator.ts](https://github.com/marcius-capital/multi-exchange-api/blob/main/modules/Generator.ts). 
 
-Пример стороннего проекта: https://coinray.docs.apiary.io/ . В сети полно готовых решение [раз](https://www.npmjs.com/package/binance-api-node), [два](https://www.npmjs.com/package/node-binance-api) etc.
+Пример стороннего проекта: https://www.coinray.io/ . В сети полно готовых решение [раз](https://www.npmjs.com/package/binance-api-node), [два](https://www.npmjs.com/package/node-binance-api) etc.
 
 ### Test task
 
