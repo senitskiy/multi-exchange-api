@@ -19,7 +19,7 @@
 * опыт коммерческих проектов от 3х лет
 * умение писать тесты Mocha+Chai
 
-### Задача
+### Тестовое задание
 
 1. доделать [Binance API](https://github.com/marcius-capital/multi-exchange-api/tree/main/api/Binance) с REST+WS+Futures используя [документацию](https://github.com/marcius-capital/multi-exchange-api/edit/main/README.md#docs)
 2. написать тесты для каждого метода используя Mocha+Chai
