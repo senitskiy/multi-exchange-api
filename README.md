@@ -14,7 +14,13 @@
 
 ### Test task
 
-1. доделать ТОЛЬКО [Binance API](https://github.com/marcius-capital/multi-exchange-api/tree/main/api/Binance) с REST+WS+Futures используя [документацию](https://github.com/marcius-capital/multi-exchange-api#docs)
+1. доделать ТОЛЬКО [Binance API](https://github.com/marcius-capital/multi-exchange-api/tree/main/api/Binance) используя [документацию](https://github.com/marcius-capital/multi-exchange-api#docs)
+ 	- [x] REST public methods
+ 	- [ ] REST private methods
+ 	- [x] WS public methods
+ 	- [ ] WS private methods 
+ 	- [ ] Futures public mthods
+ 	- [ ] Futures private mthods
 2. написать тесты для каждого метода используя Mocha+Chai
 
 **Задание оплачивается при 100% выполнение с продолжением работы.**
